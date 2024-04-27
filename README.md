@@ -4,7 +4,7 @@ Evaluating large language models (LLM) is challenging due to their broad capabil
 
 > ℹ️  **Note:** The evaluation steps in this lab are based on the paper  [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/pdf/2306.05685.pdf).
 
-This lab addresses this challenge by providing a practical solution for evaluating LLMs using LLM-as-a-Judge with Amazon Bedrock. This is relevant for developers and researchers working on evaluating LLM based applications. In the notebook you are guided using MT-Bench questions to generate test answers and evaluate them with a single-answer grading using the Bedrock API, Python and Langchain. The notebook consists of the following chapters: 
+This notebook showcase how to addresses this challenge by providing a practical solution for evaluating LLMs using LLM-as-a-Judge with Amazon Bedrock. This is relevant for developers and researchers working on evaluating LLM based applications. In the notebook you are guided using MT-Bench questions to generate test answers and evaluate them with a single-answer grading using the Bedrock API, Python and Langchain. The notebook consists of the following chapters: 
 
 1) Set-up of the environment
 2) Load MT-Bench questions
@@ -61,17 +61,24 @@ Once your notebook environment is set up, clone this workshop repository into it
 
 ```sh
 sudo yum install -y unzip
-git clone git@github.com:aws-samples/evaluating-large-language-models-using-llm-as-a-judge.git
-cd evaluating-large-language-models-using-llm-as-a-judge
+git clone git@github.com:jorgeutd/evaluating-llms-judge-llm-approach.git
+cd evaluating-llms-judge-llm-approach
 ```
 
-You're now ready to explore the lab notebook! You will be guided through connection the notebook to Amazon Bedrock for large language model access.
+Now we ready to explore the notebook! You will be guided through connection the notebook to Amazon Bedrock for large language model access.
 
 
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
-## License
-This library is licensed under the MIT-0 License. See the [LICENSE](LICENSE) file.
+## References:
+
+(1) "Evaluating Large Language Models: A Comprehensive Survey" by Zishan Guo∗, Renren Jin∗. (2023)
+https://arxiv.org/pdf/2310.19736
+(2) "An Empirical Study of LLM-as-a-Judge for LLM Evaluation: Fine-tuned Judge Models are Task-specific Classifiers" Hui Huang, Yingqi Qu, Jing Liu, Muyun Yang, Tiejun Zhao (2024)
+https://arxiv.org/abs/2403.02839
+
+
+
 
