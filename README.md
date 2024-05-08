@@ -66,7 +66,6 @@ git clone git@github.com:jorgeutd/evaluating-llms-judge-llm-approach.git
 cd evaluating-llms-judge-llm-approach
 ```
 
-Now we ready to explore the notebook!
 
 
 
